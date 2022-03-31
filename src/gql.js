@@ -60,6 +60,7 @@ async function main() {
   await User.build({
     age: 30,
     name: 'Dodo',
+    cityId: seoul.getDataValue('id'),
   }).save()
 
   const server = new ApolloServer({ typeDefs, resolvers })

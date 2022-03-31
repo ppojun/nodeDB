@@ -1,6 +1,6 @@
 FRONT
 BACK
-DB : MSSQL, Sequelize, sequelize-cli
+DB : MSSQL, Sequelize, sequelize-cli , GraphQL
 DevOps : dotenv, prompt, command
 
 npm run seq init
